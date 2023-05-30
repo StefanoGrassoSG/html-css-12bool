@@ -1,2 +1,21 @@
+/***************
+     IMPORTS
+***************/
+
 @import "reset.css";
 @import "colors.css";
+@import "common.css";
+
+/******************
+     COL-STYLE 
+******************/
+
+[class*="col-"] {
+    border: 1px solid var(--third-color);
+    padding: .625rem .3125rem;
+    text-align: center;
+}
+
+[class*="Nested"] {
+    border: 1px solid var(--main-color);
+}

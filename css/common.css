@@ -1,0 +1,32 @@
+/************
+    COMMON
+************/
+
+body {
+    background-color: var(--main-background);
+    color: var(--third-color);
+}
+
+section > h2 {
+    color: var(--main-background);
+}
+
+.container {
+    background-color: var(--third-color)
+}
+
+[class*="col-"]  {
+    background-color: var(--main-color);
+}
+
+[class*="Nested"] {
+    background-color: var(--secondary-color);
+}
+
+section {
+    margin-bottom: 1.25rem;
+}
+
+.container section:nth-of-type(2) .row, .container section:last-child {
+    color: var(--main-color);
+}

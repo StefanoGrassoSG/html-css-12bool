@@ -1,3 +1,10 @@
 /**************
     COLORS
 **************/
+
+:root {
+    --main-color: #006CFA;
+    --main-background: black;
+    --third-color: white;
+    --secondary-color :#00E165;
+}
