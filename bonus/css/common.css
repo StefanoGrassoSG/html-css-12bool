@@ -1,0 +1,22 @@
+/***********
+   COMMON
+***********/
+
+.container.flex {
+    display: flex;
+    border: 10px solid black;
+    width: 800px;
+}
+
+.small-container {
+    background-color: lightgray;
+    width: calc(100% / 2);
+}
+
+.small-container-center {
+    width: 2rem;
+}
+
+.small-container-center > .row {
+    flex-direction: column;
+}

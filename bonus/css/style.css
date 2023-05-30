@@ -1,0 +1,51 @@
+@import "reset.css";
+@import "colors.css";
+@import "common.css";
+
+/**************
+    COL-STYLE
+**************/
+
+[class*="col-"] {
+    height: 2rem;
+}
+
+[class*="col-"].black {
+    background-color: black;
+}
+
+[class*="col-"].red {
+    background-color: red;
+}
+
+[class*="col-"].blue {
+    background-color: blue;
+}
+
+[class*="col-"].white {
+    background-color: white;
+}
+
+/****************
+  COL-GROW-STYLE
+*****************/
+
+[class*="col"] {
+    height: 2rem;
+} 
+
+[class*="col"].black {
+    background-color: black;
+}
+
+[class*="col"].red {
+    background-color: red;
+}
+
+[class*="col"].blue {
+    background-color: blue;
+}
+
+[class*="col"].white {
+    background-color: white;
+}
